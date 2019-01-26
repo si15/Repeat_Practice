@@ -20,6 +20,12 @@ public class MainDrive {
 			System.out.println();
 		}
 		
+//		2. 구구단 2단까지 찍기. -> 2~9단까지 출력하기.
+		
+//		2 X 1 = 2
+//		2 X 1 = 4
+//		~
+//		9 X 9 = 81
 		
 		
 
