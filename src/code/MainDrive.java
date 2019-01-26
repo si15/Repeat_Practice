@@ -35,17 +35,25 @@ public class MainDrive {
 //		2) 반복을 먼저 작성 : i
 		
 //		단 자체를 담당. i
-		for (int i = 2; i <= 9; i++) {
-//			각 단의 내용을 출력 : j
-			for (int j = 1; j <=9 ; j++) {
-//				string format을 이용하여 상황에 따라 문장 출력
-				System.out.println(String.format("%d X %d = %d",i,j,i*j));
-				
-				
-			}
-			
-			
-		}
+//		for (int i = 2; i <= 9; i++) {
+////			각 단의 내용을 출력 : j
+//			for (int j = 1; j <=9 ; j++) {
+////				string format을 이용하여 상황에 따라 문장 출력
+//				System.out.println(String.format("%d X %d = %d",i,j,i*j));
+//				
+//				
+//			}
+//			
+//			
+//		}
+//		3. 별찍기
+//		3.1) 정사각형 5X5사이즈의 별 찍기. 연습문제.
+//		*****
+//		*****
+//		*****
+//		*****
+//		*****
+		
 		
 
 		
