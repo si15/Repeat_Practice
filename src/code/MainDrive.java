@@ -16,6 +16,8 @@ public class MainDrive {
 			   System.out.print(j+1);
 			}
 			
+//			가로로 1~5를 찍고나면 줄을 바꿈.
+			System.out.println();
 		}
 		
 		
