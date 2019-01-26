@@ -8,18 +8,18 @@ public class MainDrive {
 		
 //		바깥에 위치하는 for문 > 상대적으로 느리게 반복
 //		문제에서는 가로와 세로중? 세로 툴바를 담당
-		for (int i = 0; i < 5; i++) {
-			
-//			바쁘게 돌아가는 반복을 안쪽에 중첩
-//			문제에서는 가로로 숫자를 찍는 역할 담당
-			for (int j = 0; j < 5; j++) {
-			   System.out.print(j+1);
-			}
-			
-//			가로로 1~5를 찍고나면 줄을 바꿈.
-			System.out.println();
-		}
-		
+//		for (int i = 0; i < 5; i++) {
+//			
+////			바쁘게 돌아가는 반복을 안쪽에 중첩
+////			문제에서는 가로로 숫자를 찍는 역할 담당
+//			for (int j = 0; j < 5; j++) {
+//			   System.out.print(j+1);
+//			}
+//			
+////			가로로 1~5를 찍고나면 줄을 바꿈.
+//			System.out.println();
+//		}
+//		
 //		2. 구구단 2단까지 찍기. -> 2~9단까지 출력하기.
 		
 //		2 X 1 = 2
@@ -55,7 +55,7 @@ public class MainDrive {
 //		*****
 		
 //		세로 줄바꿈
-		for (int i = 0; i < 5; i++) {
+//		for (int i = 0; i < 5; i++) {
 			
 ////			가로 별찍기
 //			for (int j = 0; j < 5; j++) {
@@ -74,7 +74,16 @@ public class MainDrive {
 //			****
 //			*****
 		
-			
+//		   가로 출력 담당 변수 : j 안쪽 for
+//		세로 줄바꿈 담당 변수 : i 바깥 for
+		
+//		반복문의 반복 횟수? 조건식이 담당. => 조건식의 조건을 변수로 활용하자!
+		
+			for (int i = 0; i < 5; i++) {
+				for (int j = 0; j < i+1; j++) {
+					System.out.print("*");
+								}
+							System.out.println();
+			}
 	}
-
 }
