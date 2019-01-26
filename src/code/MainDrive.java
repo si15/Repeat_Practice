@@ -94,7 +94,24 @@ public class MainDrive {
 //		**
 //		*
 		
+//		첫번째 방법
+//		for (int i = 0; i < 5; i++) {
+//			for (int j = 0; j < 5-i; j++) {
+//				System.out.print("*");
+//								
+//			}
+//			System.out.println();
+//		}
 		
+//		두번째 방법 j형 돌리는 for문을 감소형으로 
+//		for (int i = 5; i > 0; i--) {
+////			j가 도는 횟수를 5,4,3,2,1로 줄어들도록
+//            for (int j = 0; j < i; j++) {
+//			System.out.print("*");
+//							
+//		}
+//		System.out.println();
+//	}
 		
 		
 	
